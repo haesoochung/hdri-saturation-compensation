@@ -28,3 +28,13 @@ python main.py --mode train
 python main.py --mode test 
 ```
 
+## Citation
+```
+@inproceedings{chung2022high,
+  title={High Dynamic Range Imaging of Dynamic Scenes With Saturation Compensation but Without Explicit Motion Compensation},
+  author={Chung, Haesoo and Cho, Nam Ik},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={2951--2961},
+  year={2022}
+}
+```
