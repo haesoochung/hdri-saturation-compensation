@@ -9,12 +9,7 @@ ration Compensation but without Explicit Motion Compensation (WACV 2022)
 * OpenCV
 
 ## Training
-1. Download Kalantari dataset 
-```
-cd dataset
-sh download_dataset.sh
-cd ..
-```
+1. Download Kalantari dataset from https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/.
 2. Make tfrecords
 ```
 python utils/make_tfrecords.py
