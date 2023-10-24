@@ -25,6 +25,12 @@ python utils/make_tfrecords.py
 python main.py --mode train
 ```
 ## Test
+1. Make a folder named checkpoints and download the [pre-trained model weight](https://drive.google.com/drive/folders/1ORFHkmVIwuySQ5vyplizmDSQB4uj_Wfs?usp=sharing).
+```
+mkdir checkpoints
+cd checkpoints
+```
+2. Test
 ```
 python main.py --mode test 
 ```
