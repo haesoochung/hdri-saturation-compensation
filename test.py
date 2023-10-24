@@ -40,7 +40,7 @@ class Test(object):
 
         with tf.Session() as sess:
             for iteration in [self.saved_iter] :
-                ckpt_path = "%s/iter_%06d" % (self.model_path, iteration)
+                ckpt_path = "%s/ckpt" % self.model_path
                 if not tf.train.checkpoint_exists(ckpt_path):
                     print('%s does not exist' % ckpt_path)
                     break
