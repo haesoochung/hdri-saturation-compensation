@@ -41,7 +41,7 @@ class Model(object):
     def Align(self, input_to_align, ref, is_train, scope):
         with tf.variable_scope(scope) :
             scope = "ref"
-            
+            ch = self.block_ch            
 
             ref_0 = self.conv_layer(ref, scope, name="layer0_conv1", kshape=[3,3,6,ch], strides=[1,1,1,1])
 
